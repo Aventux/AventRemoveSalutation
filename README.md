@@ -11,7 +11,7 @@
 Um das AventRemoveSalutation-Plugin zu installieren, führen Sie folgende Schritte aus:
 
 ```bash
-composer require aventux/avent-remove-salutation
+composer require avent/remove-salutation
 bin/console plugin:refresh
 bin/console plugin:install -a AventRemoveSalutation
 bin/console cache:clear
@@ -44,7 +44,7 @@ _ _ _ _ _ _ _ _ _ _
 To install the AventRemoveSalutation plugin, follow these steps:
 
 ```bash
-composer require aventux/avent-remove-salutation
+composer require avent/remove-salutation
 bin/console plugin:refresh
 bin/console plugin:install -a AventRemoveSalutation
 bin/console cache:clear****
