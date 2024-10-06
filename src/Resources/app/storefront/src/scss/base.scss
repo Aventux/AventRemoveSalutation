@@ -1,0 +1,7 @@
+.form-group:has(#personalSalutation),
+.form-group:has(#form-Salutation),
+.form-group:has(#addresspersonalSalutation),
+.form-group:has(#billingAddresspersonalSalutation),
+.form-group:has(#shippingAddresspersonalSalutation){
+    display: none;
+}

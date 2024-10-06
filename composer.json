@@ -1,0 +1,34 @@
+{
+    "name": "avent/remove-salutation",
+    "description": "Remove salutation",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Aventux",
+            "role": "Agency"
+        }
+    ],
+    "require": {
+        "shopware/core": "~6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avent\\RemoveSalutation\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Avent\\RemoveSalutation\\AventRemoveSalutation",
+        "plugin-icon": "src/Resources/config/plugin.png",
+        "copyright": "(c) by Aventux",
+        "label": {
+            "de-DE": "Remove salutation",
+            "en-GB": "Remove salutation"
+        },
+        "description": {
+            "de-DE": "Remove salutation",
+            "en-GB": "Remove salutation"
+        }
+    }
+}
